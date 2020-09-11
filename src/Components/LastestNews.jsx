@@ -5,15 +5,11 @@ class LastestNews extends Component {
 	state = {
 		posts: []
     }
-   
-  
-
-	componentDidMount() {
+ 	componentDidMount() {
 		fetch('https://newsapi.org/v2/top-headlines?country=ng&apiKey=be1939fe6be743508bdf643a5f4708d0')
 			.then((res) => res.json())
 			.then((json) => {
-			
-				this.setState({
+			 this.setState({
 					posts: json.articles
 				});
 				console.log(this.state);
