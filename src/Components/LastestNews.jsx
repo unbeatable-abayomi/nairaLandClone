@@ -16,8 +16,8 @@ class LastestNews extends Component {
 			});
 	}
 	render() {
-		const postsList = this.state.posts.length ? (
-			this.state.posts.map((post) => {
+		// const postsList = this.state.posts.length ? (
+		const postsList=this.state.posts.map((post) => {
 				return (
 					<div className="col-lg-3 col-md-4 col-sm-4 col-xs-12 text-xs-center flex-item">
 						<div className="card-deck">
@@ -45,15 +45,15 @@ class LastestNews extends Component {
 					</div>
 				);
 			})
-		) : (
+		// ) : (
             
-            <div>
+        //     <div>
     
-           <h3>Loading LatestNews ....</h3> 
+        //    <h3>Loading LatestNews ....</h3> 
            
-            </div>
+        //     </div>
             
-		);
+		// );
 		return (
             <div>
             <center>
