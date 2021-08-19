@@ -18,7 +18,7 @@ function General() {
 	const getAllNews = () => {
 		axios
 			.get(
-				`https://newsapi.org/v2/everything?q=${query}&from=2020-01-04&to=2019-11-04&sortBy=popularity&apiKey=be1939fe6be743508bdf643a5f4708d0`
+				`https://newsapi.org/v2/everything?q=${query}&from=2020-01-04&to=2019-11-04&sortBy=popularity&apiKey=efdf0e6b842148d282051bf3469e564f`
 			)
 			.then((res) => {
 				console.log(res.data.articles);

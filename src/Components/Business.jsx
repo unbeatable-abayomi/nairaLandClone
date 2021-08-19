@@ -9,7 +9,7 @@ class Business extends Component {
   
 
 	componentDidMount() {
-		fetch('https://newsapi.org/v2/top-headlines?country=ng&category=business&apiKey=be1939fe6be743508bdf643a5f4708d0')
+		fetch('https://newsapi.org/v2/top-headlines?country=ng&category=business&apiKey=efdf0e6b842148d282051bf3469e564f')
 			.then((res) => res.json())
 			.then((json) => {
 				console.log(json.articles);

@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class LastestNews extends Component {
 	state = {
 		posts: [],
-		url: 'https://newsapi.org/v2/top-headlines?country=ng&apiKey=be1939fe6be743508bdf643a5f4708d0'
+		url: 'https://newsapi.org/v2/top-headlines?country=ng&apiKey=efdf0e6b842148d282051bf3469e564f'
     }
    
   
@@ -69,6 +69,8 @@ class LastestNews extends Component {
                
                 <div className="flex-item">
                 {postsList}
+				{/* be1939fe6be743508bdf643a5f4708d0 old api key*/}
+				{/* efdf0e6b842148d282051bf3469e564f  new api key*/}
                   {/*https://newsapi.org/v2/top-headlines?country=ng&category=sports&apiKey=be1939fe6be743508bdf643a5f4708d0*/} 
                   {/*https://newsapi.org/v2/top-headlines?country=ng&category=health&apiKey=be1939fe6be743508bdf643a5f4708d0*/} 
                   {/*https://newsapi.org/v2/top-headlines?country=ng&category=entertainment&apiKey=be1939fe6be743508bdf643a5f4708d0*/} 
